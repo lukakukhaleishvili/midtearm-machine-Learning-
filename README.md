@@ -19,22 +19,25 @@ CSV ფაილში არსებული ორი ცვლადის 
 1. ფაილი ატვირთულია პროექტში (იხილე ზემოთ).
 
 2. ლოგისტიკური რეგრესიის მოდელი:
+   
 გაწვრთნილი მოდელი LogisticRegression sklearn-დან.
 model = LogisticRegression()
 model.fit(X_train, y_train)
 
-3. confusion matrix:
+4. confusion matrix:
+   
 from sklearn.metrics import confusion_matrix
 cm = confusion_matrix(y_test, y_pred)
 
-4. ელფოსტის შემოწმების ფუნქცია:/n
+5. ელფოსტის შემოწმების ფუნქცია:
+   
 def check_spam_manual(words, links, capital_words, spam_word_count):
     features = [[words, links, capital_words, spam_word_count]]
     return "სპამი" if model.predict(features)[0] == 1 else "ლეგიტიმური"
 
 
 
-5. spam ელფოსტის მაგალითი
+6. spam ელფოსტის მაგალითი
 
 CONGRATULATIONS! YOU HAVE WON $1,000,000! 
 Click the link below to claim your prize NOW!!!
