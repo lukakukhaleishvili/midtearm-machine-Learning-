@@ -38,10 +38,10 @@ Luka
 ## 2.7 მონაცემების ვიზუალიზაცია
 
 **წყვილთა გრაფიკი:**
-![pairplot]()
+![pairplot](images/წყვილთაგრაფიკი.png)
 
 **Spam Word Count ჰისტოგრამა:**
-![hist_spam_words](images/hist_spam_words.png)
+![hist_spam_words](images/სპამისშედარებალეგიტიმურთან.png)
 
 **Boxplot - capital_words:**
-![boxplot_capital_words](images/boxplot_capital_words.png)
+![boxplot_capital_words](images/სიტყვებისრაოდენობა.png)
