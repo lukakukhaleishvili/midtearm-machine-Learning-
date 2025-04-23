@@ -23,11 +23,11 @@ CSV ფაილში არსებული ორი ცვლადის 
 model = LogisticRegression()
 model.fit(X_train, y_train)
 
-3. confusion matrix
+3. confusion matrix:
 from sklearn.metrics import confusion_matrix
 cm = confusion_matrix(y_test, y_pred)
 
-4. ელფოსტის შემოწმების ფუნქცია
+4. ელფოსტის შემოწმების ფუნქცია:/n
 def check_spam_manual(words, links, capital_words, spam_word_count):
     features = [[words, links, capital_words, spam_word_count]]
     return "სპამი" if model.predict(features)[0] == 1 else "ლეგიტიმური"
