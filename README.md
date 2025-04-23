@@ -10,4 +10,38 @@ CSV ფაილში არსებული ორი ცვლადის 
 
 ინტერაქტიული გრაფიკი
 
-ქვემოთ მოცემულია გრაფიკი, სადაც მონაცემები გამოსახულია ცისფერი წერტილებით. მაუსის წერტილზე მიყვანისას ჩნდება შესაბამისი კოორდინატები იხილეთ ბმული რომელიც დაგენერირდება.
+მოცემულია გრაფიკი, სადაც მონაცემები გამოსახულია ცისფერი წერტილებით. მაუსის წერტილზე მიყვანისას ჩნდება შესაბამისი კოორდინატები.
+
+
+!!!spam მეილი
+
+CONGRATULATIONS! YOU HAVE WON $1,000,000! 
+Click the link below to claim your prize NOW!!!
+http://free-money-now.com
+LIMITED TIME OFFER! ACT FAST!
+
+
+!!!ლეგიტიმური მეილი
+Hello John,
+
+I hope you're doing well. 
+Just wanted to remind you about our meeting scheduled for tomorrow at 10am. 
+Let me know if you have any questions.
+
+Best regards,
+Luka
+
+
+
+
+
+## 2.7 მონაცემების ვიზუალიზაცია
+
+**წყვილთა გრაფიკი:**
+![pairplot]()
+
+**Spam Word Count ჰისტოგრამა:**
+![hist_spam_words](images/hist_spam_words.png)
+
+**Boxplot - capital_words:**
+![boxplot_capital_words](images/boxplot_capital_words.png)
