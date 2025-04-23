@@ -24,12 +24,12 @@ CSV ფაილში არსებული ორი ცვლადის 
 model = LogisticRegression()
 model.fit(X_train, y_train)
 
-4. confusion matrix:
+3. confusion matrix:
    
 from sklearn.metrics import confusion_matrix
 cm = confusion_matrix(y_test, y_pred)
 
-5. ელფოსტის შემოწმების ფუნქცია:
+4. ელფოსტის შემოწმების ფუნქცია:
    
 def check_spam_manual(words, links, capital_words, spam_word_count):
     features = [[words, links, capital_words, spam_word_count]]
@@ -37,7 +37,7 @@ def check_spam_manual(words, links, capital_words, spam_word_count):
 
 
 
-6. spam ელფოსტის მაგალითი
+5. spam ელფოსტის მაგალითი
 
 CONGRATULATIONS! YOU HAVE WON $1,000,000! 
 Click the link below to claim your prize NOW!!!
